@@ -1,0 +1,24 @@
+{
+  "name": "rollup-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenjiangsong/rollup-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenjiangsong/rollup-demo/issues"
+  },
+  "homepage": "https://github.com/chenjiangsong/rollup-demo#readme",
+  "dependencies": {
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "rollup": "^0.34.10",
+    "rollup-plugin-babel": "^2.6.1"
+  }
+}
