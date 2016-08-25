@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-cli": "rollup -c build/rollup.config.js",
+    "build-jsapi": "node build/rollup.jsapi.js",
+    "build-gulp": "gulp rollup"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
     "babel-preset-es2015-rollup": "^1.2.0",
     "rollup": "^0.34.10",
     "rollup-plugin-babel": "^2.6.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^0.30.0",
+    "gulp": "^3.9.1"
   }
 }

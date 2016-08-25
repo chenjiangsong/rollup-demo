@@ -1,11 +1,13 @@
 import { name, animalName } from './cat.js'
-import { name as dogName } from './dog.js'
 import { shout } from './animal.js'
+import { name as dogName,shout as dogShout } from './dog.js'
 
-name()
+name()         //Cat Name
 
-animalName()
+animalName()  //Animal Name
 
-dogName()
+dogName()     //Dog Name
 
-shout()
+shout()       //Animal Shout
+
+dogShout()    //Dog Shout

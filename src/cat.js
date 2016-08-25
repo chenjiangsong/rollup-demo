@@ -1,5 +1,5 @@
 
-import { name as animalName } from 'animal.js'
+import { name as animalName } from './animal.js'
 
 export { animalName }
 
