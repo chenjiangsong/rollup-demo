@@ -1,4 +1,4 @@
-# rollup demo
+# rollup的cli、jsapi、gulp三种打包方式
 demo分别演示了rollup提供的cli、jsapi和集成jsapi到gulp的三种打包方式。
 
 cli命令行：
